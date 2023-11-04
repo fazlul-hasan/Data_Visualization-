@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spain Football Clubs Map</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        form {
+            margin: 20px 0;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-size: 18px;
+            color: #555;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box; /* Added for box sizing */
+        }
+
+        #map {
+            height: 80vh;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Football Clubs in Spain</h1>
+        <form id="clubForm" action="{{ url_for('index') }}" method="get">
+            <label for="club">Choose a club:</label>
+            <select name="club" id="club">
+                <option value="">Select a club...</option>
+                {% for club in clubs %}
+                <option value="{{ club }}" {% if selected_club == club %}selected{% endif %}>{{ club }}</option>
+                {% endfor %}
+            </select>
+        </form>
+        <div id="map"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Trigger form submission when the dropdown changes
+            $('#club').change(function() {
+                $('#clubForm').submit();
+            });
+
+            // If you have additional JavaScript to initialize your map or other features, include them here
+            // This example assumes you are using Leaflet for map display
+            // Please replace with your own map initialization code if using a different library
+            var map = L.map('map').setView([40.4637, -3.7492], 6); // Replace with your map's default view
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+
+            // Add a responsive map feature
+            map.invalidateSize();
+
+            // If you have club coordinates data from your server-side Flask app, you can use them here
+            // For example:
+            // var clubCoordinates = {{ clubCoordinates|tojson }};
+            // clubCoordinates.forEach(function(club) {
+            //     L.marker([club.latitude, club.longitude]).addTo(map)
+            //         .bindPopup(club.name);
+            // });
+        });
+    </script>
+</body>
+</html>

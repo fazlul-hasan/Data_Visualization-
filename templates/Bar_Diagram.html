@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Club Stats</title>
+</head>
+<body>
+    <h1>Select a Club to View Stats</h1>
+    <form action="/" method="post">
+        <select name="club_selector">
+            {% for club in clubs %}
+            <option value="{{ club }}" {% if selected_club == club %}selected{% endif %}>{{ club }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Show Stats">
+    </form>
+
+    {% if plot_url %}
+        <h2>{{ selected_club }} Goal Stats</h2>
+        <img src="data:image/png;base64,{{ plot_url }}" alt="Bar Diagram">
+    {% endif %}
+</body>
+</html>

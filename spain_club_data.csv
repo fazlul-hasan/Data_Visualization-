@@ -1,0 +1,21 @@
+club,stadium_name,city,stadium_capacity,latitude,longitude,match_played,win,draw,loss,table_position,goal_scored,goals_against,goal_differences,points,number_of_fans,official_jersey_sponsor
+Real Madrid,Santiago Bernabey Stadium,Madrid,85000,40.45321,-3.36882,38,26,8,4,1,80,31,49,86,350,Adidas
+FC Barcelona,Spotify Camp Nou,Barcelona,100000,41.38106,2.12288,38,21,10,7,2,68,38,30,73,310,Nike
+Atletico Madrid,Civitas Metropolitan Stadium,Madrid,45000,40.43625,-3.59952,38,23,8,7,3,65,43,22,71,35,Nike
+Sevilla,Ramon Sanchez-Pizajuan Stadium,Sevilla,50000,37.38424,-5.971007,38,18,16,4,4,53,30,23,70,7,Degiro
+Real Betis,Benito Villamarin Stadium,Sevilla,53289,37.35667,-5.98172,38,19,8,11,5,62,40,22,65,5.8,Hummel 
+Real Sociedad,Reale Arena,Donostia-San Sebastian,"70,460",43.3015,-1.97359,38,17,11,10,6,40,37,3,62,4.1,Macron
+Villarreal,Estadio de la Ceramica,Villarreal,"23,500",39.94402,-0.10307,38,16,11,11,7,63,37,26,59,3.9,Joma
+Athletic Club,San Mames Stadium,Bilbao,"53,289",43.26433,-2.94938,38,14,13,11,8,43,36,7,55,3.6,New Balance
+Valencia,Mestalla Stadium,Valencia,"49,430",39.58406,-0.32735,38,11,15,12,9,48,53,-5,48,6,Puma
+Osasuna,El Sadar Stadium,Pamplona,"23,576",42.79687,-1.63706,38,12,11,15,10,37,51,-14,47,2.5,Adidas
+Celta Vigo,Estadio de Balaidos,Vigo,"29,000",42.6013,-8.65185,38,12,10,16,11,43,43,0,46,1.9,Adidas
+Rayo Vallecano,Estadio de Vallecas,Madrid,"14,708",40.39216,-3.65865,38,11,9,18,12,39,50,-11,42,0.8,Umbro
+Elche,Estadio Martinez Valero ,Elche,"31,388",38.26719,-0.66277,38,11,9,18,13,40,52,-12,42,0.82,Nike
+Espanyol,Stage Front Stadium,Barcelona,"40,000",41.34837,-2.07453,38,10,12,16,14,40,51,-13,42,1.1,Kelme
+Getafe,Coliseum Alfonso Perez,Getafe,"16,500",40.32591,-3.71497,38,8,15,15,15,33,41,-8,39,0.85,Joma
+Mallorca,Iberostar Stadium,Palma de Mallorca,"23,142",39.59022,-2.62991,38,10,9,19,16,36,63,-27,39,1,Nike
+Cadiz,Estadio Nuevo Mirandilla,Cadiz,"25,033",36.50272,-6.27294,38,8,15,15,17,35,51,-16,39,1.1,Macron
+Granada,Nuevo Estadio de LOS Carmenes,Granada,"19,336",37.15299,-3.59571,38,8,14,16,18,55,61,-17,38,0.68,Adidas
+Levante,Estadi Ciutat de Valencia,Valencia,"26,354",39.49482,-0.36383,38,8,11,19,19,51,76,-25,35,0.52,Macron
+Alaves,Mendizorrotza Stadium,Vitoria-Gasteiz,"19,840",42.83713,-2.68818,38,8,7,23,20,31,65,-34,31,0.7,Puma
