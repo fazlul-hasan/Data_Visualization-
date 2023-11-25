@@ -1,0 +1,33 @@
+Club,City,Country,Stadium_Name,Group,Matches,Win,Lost,Draw,GS,GA,GD,Table_Position,Point,Qualification,Latitude,Longitude
+Napoli,Naples,Italy,Diego Armando Maradona Stadium ,A,6,5,1,0,20,6,14,1,15,NS,40.82805825,14.19301818
+Liverpool,Liverpool,England,Anfield ,A,6,5,1,0,17,6,11,2,15,NS,53.43093296,-2.960720844
+Ajax,Amsterdam ,Netherlands ,Johan Cruyff Arena,A,6,2,4,0,11,16,-5,3,6,UEL,52.314559,4.941880883
+Rangers,Glasgow,Scotland ,Ibrox Stadium,A,6,0,6,0,2,22,-20,4,0,KO,55.85326231,-4.309193501
+Porto,Porto,Portugal,Estadio do Drago,B,6,4,2,0,12,7,5,1,12,NS,41.16189113,-8.583633919
+Club Brugge,Bruges,Belgium ,Jan Breydel Stadium,B,6,3,1,2,7,4,3,2,11,NS,51.19336752,3.180069741
+Bayer Leverkusen,Leverkusen,Germany ,The BayArena ,B,6,1,3,2,4,8,-4,3,5,UEL,51.03833725,7.002331699
+Athletico Madrid,Madrid,Spain,Civitas Metropolitan Stadium,B,6,1,3,2,5,9,-4,4,5,KO,40.4363221,-3.599471175
+Bayern Munich,Bayern,Germany ,Allianz Arena,C,6,6,0,0,18,2,16,1,18,NS,48.2189186,11.62463649
+Inter Milan ,Milan,Italy,San Siro Stadium,C,6,3,2,1,10,7,3,2,10,NS,45.47824617,9.124028183
+FC Barcelona,Barcelona,Spain,Spotify Camp Nou,C,6,2,3,1,12,12,0,3,7,UEL,41.38099257,2.122894898
+Viktoria Plezn ,Pilsen,Czechia,Doosan Arena,C,6,0,6,0,5,24,-19,4,0,KO,49.75012022,13.38529221
+Tottenham Hotspur,London,England,Tottenham Hotspur Stadium,D,6,3,1,2,8,6,2,1,11,NS,51.60432709,-0.06626601849
+Eintracht Frankfurt,Frankfut,Germany ,Deutsche Bank Park,D,6,3,2,1,7,8,-1,2,10,NS,50.0686702,8.64535398
+Sporting CP,Lisbon,Portugal,Jose Alvalade Stadium,D,6,2,3,1,8,9,-1,3,7,UEL,38.76136379,-9.161886563
+Marseille FC,Marseille,France,Orange Velodrome,D,6,2,4,0,8,8,0,4,6,KO,43.26996834,5.395762022
+Chelsea,London,England,Stamford Bridge ,E,6,4,1,1,10,4,6,1,13,NS,51.48176319,-0.1909779608
+AC Milan,AC Milan,Italy,San Siro Stadium ,E,6,3,2,1,12,7,5,2,10,NS,45.47821608,9.124038912
+Red Bull Salzburg,Salzburg,Austria,Red Bull Arena,E,6,1,2,3,5,9,-4,3,6,UEL,47.94586718,12.91802257
+Dinamo Zagreb,Zagreb,Croatia,Maksimir Stadium,E,6,1,4,1,4,11,-7,4,4,KO,45.81874793,16.01808183
+Real Madrid,Madrid,Spain,Santiago Bernabeu Stadium,F,6,4,1,1,15,6,9,1,13,NS,40.45327543,-3.688398077
+RB Leipzig ,Leipzig,Germany ,Red Bull Arena ,F,6,4,2,0,13,9,4,2,12,NS,48.02073991,37.80914481
+Shakhtar Donetsk,Donetsk,Ukraine ,The Donbass Arena,F,6,1,2,3,8,10,2,3,6,UEL,48.02139084,37.8101229
+Celtic,Glasgow,Scotland ,Celtic Park,F,6,0,4,2,4,15,-11,4,2,KO,55.84979836,-4.205531974
+Manchester City ,Manchester,England,Etihad Stadium ,G,6,4,0,2,14,2,12,1,14,NS,53.48329744,-2.200470163
+Borussia Dortmund ,Dortmund ,Germany ,Signal Iduna Park,G,6,2,1,3,10,5,5,2,9,NS,51.49280253,7.45173938
+Sevilla ,Sevilla,Spain,Ramon Sanchez-Pizajuan Stadium,G,6,1,3,2,6,12,-6,3,5,UEL,37.38423972,-5.970913431
+Copenhagen FC,Copenhagen,Denmark,Telia Parken,G,6,0,3,3,1,12,-11,4,3,KO,55.70319906,12.57159228
+S.L Benifica,Lisbon,Portugal,Estadio da luz,H,6,4,0,2,16,7,9,1,14,NS,38.75279087,-9.184649088
+PSG,Paris,France,Parc des Princes,H,6,4,0,2,16,7,9,2,14,NS,48.84158385,2.253123499
+Juventus ,Turin,Italy,Allianz Stadium of Turin ,H,6,1,5,0,9,13,-4,3,3,UEL,45.10960517,7.641288425
+Maccabi Haifa,Haifa,Israel ,Sammy Ofer Stadium ,H,6,1,5,0,7,21,-14,4,3,KO,32.78439647,34.96515004
